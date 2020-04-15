@@ -39,7 +39,7 @@ inquirer.prompt([
     },
     {
         type: "input",
-        name: "contribution",
+        name: "contributing",
         message: "What does the user need to know about contributing to the repo?"
     },
     {
@@ -52,7 +52,7 @@ inquirer.prompt([
 ]).then(answers => {
     console.log(answers);
     api.getUser(answers.username);
-    writeToFile("README.md");
+    writeToFile("README.md", answers);
 
 }).catch(err => {
     throw err;
@@ -60,9 +60,9 @@ inquirer.prompt([
 
 ];
 
-function writeToFile(fileName, data) {
+function writeToFile(fileName, answers) {
 
-    fs.writeFile(fileName, generateMarkdown(data), err => {
+    fs.writeFile(fileName, generateMarkdown(answers), err => {
         if (err) {
             throw err
         }
