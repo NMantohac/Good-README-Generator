@@ -1,8 +1,9 @@
-function generateMarkdown(data) {
+function generateMarkdown(data) { 
   return `
-# ${data.title}
+# Project  
 
 `;
 }
 
+// # ${data.title}
 module.exports = generateMarkdown;
