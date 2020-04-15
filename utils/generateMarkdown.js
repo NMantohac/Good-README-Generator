@@ -36,10 +36,10 @@ ${answers.contributing}
 
 ${answers.license}
 
-## Questions
+## Questions?
 ![GitHub Profile Image:](${apiData.data.avatar_url})
 
-[${apiData.data.email}]{${apiData.data.email}}
+Email: [${apiData.data.email}](${apiData.data.email})
 
 `;
 }

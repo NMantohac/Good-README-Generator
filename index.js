@@ -52,7 +52,7 @@ inquirer.prompt([
 ]).then(answers => {
     console.log(answers);
     api.getUser(answers.username, function(apiData) {
-        console.log(apiData);
+        // console.log(apiData);
         // Check to see if apiData.email is null
         // If it's not null:
             // Call writeToFile
