@@ -1,4 +1,6 @@
-function generateMarkdown(answers) { 
+const api = require("./api")
+
+function generateMarkdown(answers, apiData) { 
   return `# ${answers.project}
 
 ## Description
@@ -35,10 +37,11 @@ ${answers.contributing}
 ${answers.license}
 
 ## Questions
+![GitHub Profile Image:](${apiData.data.avatar_url})
 
+[${apiData.data.email}]{${apiData.data.email}}
 
 `;
 }
 
-// # ${data.title}
 module.exports = generateMarkdown;

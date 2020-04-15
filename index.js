@@ -51,8 +51,16 @@ inquirer.prompt([
 
 ]).then(answers => {
     console.log(answers);
-    api.getUser(answers.username);
-    writeToFile("README.md", answers);
+    api.getUser(answers.username, function(apiData) {
+        console.log(apiData);
+        // Check to see if apiData.email is null
+        // If it's not null:
+            // Call writeToFile
+        // If it is null:
+            // Call inquirer.prompt to get email
+        writeToFile("README.md", answers, apiData);
+
+    });
 
 }).catch(err => {
     throw err;
@@ -60,9 +68,9 @@ inquirer.prompt([
 
 ];
 
-function writeToFile(fileName, answers) {
+function writeToFile(fileName, answers, apiData) {
 
-    fs.writeFile(fileName, generateMarkdown(answers), err => {
+    fs.writeFile(fileName, generateMarkdown(answers, apiData), err => {
         if (err) {
             throw err
         }
