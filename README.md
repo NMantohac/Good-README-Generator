@@ -4,7 +4,7 @@
 
 ## Description
 
-A README.md generator that dynamically generates a README.md file after running **npm install** and **node index.js**. The user will then be asked a series of prompts (inquirer) to answer in regards to the topics and information on the README.md for display. In addition, the user's GitHub username will be asked, and then an axios API request is done to retrieve the user's GitHub profile, avatar image, and email in order to display them on the questions section of the generated README.md file.  
+A README.md generator that dynamically generates a README.md file after running **npm install** and **node index.js**. The user will then be asked a series of prompts (inquirer) to answer in regards to the topics and information on the README.md for display. In addition, the user's GitHub username will be asked, and then an axios API request is done to retrieve the user's GitHub profile, avatar image, and email in order to display them on the questions section of the generated README.md file.
 
 ## Table of Contents
 
