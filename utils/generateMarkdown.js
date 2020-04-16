@@ -1,5 +1,3 @@
-const api = require("./api")
-
 function generateMarkdown(answers, apiData) { 
   return ` ![npm](https://img.shields.io/badge/npm-v6.13.4-blue) ![node index.js](https://img.shields.io/badge/node-index.js-red)
 

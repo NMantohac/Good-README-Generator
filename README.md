@@ -4,7 +4,7 @@
 
 ## Description
 
-Short Description Here
+A README.md generator that dynamically generates a README.md file after running **npm install** and **node index.js**. The user will then be asked a series of prompts (inquirer) to answer in regards to the topics and information on the README.md for display. In addition, the user's GitHub username will be asked, and then an axios API request is done to retrieve the user's GitHub profile, avatar image, and email in order to display them on the questions section of the generated README.md file.  
 
 ## Table of Contents
 
@@ -17,19 +17,19 @@ Short Description Here
 
 ## Installation
 
-npm install
+Run **npm install** once you download/clone the repo and after you open it in VS Code.
 
 ## Usage
 
-Nothing about the repo
+Run **node index.js** and answer the series of prompts to generate a README.md.
 
 ## Tests
 
-Nothing about running tests
+There are no tests or test examples for this README.md generator.
 
 ## Contributing
 
-Nothing about contributing to the repo
+There's not really a way to contribute aside from emailing me your questions/ideas.
 
 ## License
 
