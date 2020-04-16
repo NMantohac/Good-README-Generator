@@ -1,6 +1,6 @@
  ![npm](https://img.shields.io/badge/npm-v6.13.4-blue) ![node index.js](https://img.shields.io/badge/node-index.js-red)
 
-# Good README Generator
+# Good README.md Generator
 
 ## Description
 
@@ -25,19 +25,21 @@ Nothing about the repo
 
 ## Tests
 
-Nothing about tests
+Nothing about running tests
 
 ## Contributing
 
-Nothing about contributing
+Nothing about contributing to the repo
 
 ## License
 
 None
 
 ## Questions?
-![GitHub Profile Image:](https://avatars1.githubusercontent.com/u/61064083?v=4)
 
 GitHub: [https://github.com/NMantohac](https://github.com/NMantohac)
+
+![GitHub Profile Image:](https://avatars1.githubusercontent.com/u/61064083?v=4)
+
 Email: nmantohac82098@gmail.com
 

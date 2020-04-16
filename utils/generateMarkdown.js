@@ -39,9 +39,11 @@ ${answers.contributing}
 ${answers.license}
 
 ## Questions?
-![GitHub Profile Image:](${apiData.data.avatar_url})
 
 GitHub: [${apiData.data.html_url}](https://github.com/NMantohac)
+
+![GitHub Profile Image:](${apiData.data.avatar_url})
+
 Email: ${apiData.data.email}
 
 `;
