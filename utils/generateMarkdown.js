@@ -41,7 +41,7 @@ ${answers.license}
 ## Questions?
 ![GitHub Profile Image:](${apiData.data.avatar_url})
 
-GitHub: [${apiData.data.url}](${apiData.data.url})
+GitHub: [${apiData.data.html_url}](https://github.com/NMantohac)
 Email: ${apiData.data.email}
 
 `;
