@@ -17,6 +17,7 @@ Technologies:
   - npm - Dotenv
 
 Challenges:
+
 It was definitely a notable experience to start working on the back-end (Node.js) compared to working on the front-end, which the previous homeworks and sessions have been before this week. I was able to stay on top of my game and was able to follow through with a lot of the logic and concepts around this homework, which made it a lot easier for me to do. I didn't really have a difficult time, and I enjoyed being able to implement the stuff that I have learned for this homework.
 
 The only difficult issue that I had was a callback function to display the information I got from the GitHub API request into the generateMarkdown.js file. I had to request help from a TA, and after successfully implementing it, I was able to understand how and why it worked.
@@ -27,7 +28,6 @@ I was able to solve each of my problem through good time management, consistent 
 
 URL Link:
   1) https://github.com/NMantohac/Homework_9_Good_README_Generator
-
 
 Good README.md Generator - Overall Function:
 
