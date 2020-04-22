@@ -1,3 +1,5 @@
+// Function to Generate Markdown File based on Inquirer prompt answers and GitHub API data
+
 function generateMarkdown(answers, apiData) { 
   return ` ![npm](https://img.shields.io/badge/npm-v6.13.4-blue) ![node index.js](https://img.shields.io/badge/node-index.js-red)
 

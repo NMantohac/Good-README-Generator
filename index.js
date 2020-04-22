@@ -1,8 +1,10 @@
+// Require Dependencies and usage of api.js and generateMarkdown.js
 const fs = require("fs");
 const inquirer = require("inquirer");
 const api = require("./utils/api");
 const generateMarkdown = require("./utils/generateMarkdown");
 
+// Series of prompts using Inquirer
 inquirer.prompt([
     { 
         type: "input",
@@ -48,6 +50,8 @@ inquirer.prompt([
 
 ]).then(answers => {
     console.log(answers);
+
+    // Retrieves GitHub username answer to pass it as a callback to api.js and invokes writeToFile function with written parameters
     api.getUser(answers.username, function(apiData) {
         writeToFile("README.md", answers, apiData);
     });
@@ -56,6 +60,7 @@ inquirer.prompt([
     throw err;
 })
 
+// fs.writeFile usage and console.logs a successful README.md file creation
 function writeToFile(fileName, answers, apiData) {
 
     fs.writeFile(fileName, generateMarkdown(answers, apiData), err => {
