@@ -27,7 +27,7 @@ I had already learned a lot of the concepts regarding this homework, so it was r
 I was able to solve each of my problem through good time management, consistent effort, using my online resources (Stack Overflow and Class Recordings)!
 
 URL Link:
-  1) https://github.com/NMantohac/Homework_9_Good_README_Generator
+  1) GitHub: https://github.com/NMantohac/Good-README-Generator
   2) Overall Function: https://drive.google.com/file/d/11YObdw5hGSKBDf-QHjTT01jJ6DBk9l9m/view
 
 ## Table of Contents
